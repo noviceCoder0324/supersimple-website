@@ -1,0 +1,95 @@
+<style>
+  .page-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:5px;
+    padding-right:5px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .num {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .stretch-button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    border: none;
+    cursor: pointer;
+    transition: padding-top 1s, padding-bottom 1s, padding-left 1s, padding-right 1s;
+  }
+  .stretch-button:hover {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:50px;
+    padding-right:50px;
+  }
+
+  .shadow-button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  .shadow-button:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+
+  .count-button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: margin-left 0.5s, margin-right 0.5s, padding-left 0.5s, padding-right 0.5s;
+  }
+  .count-button:hover {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+</style>
+
+<!--4h. Pagination-->
+<button class="page-button">Back</button>
+<a class="num" href="">1</a>
+<a class="num" href="">2</a>
+<a class="num" href="">3</a>
+<a class="num" href="">4</a>
+<a class="num" href="">5</a>
+<button class="page-button">Next</button>
+
+<!--4i. Stretch-->
+<p></p>
+<button class="stretch-button">Stretch</button>
+
+<!--4j. 3D Click-->
+<p></p>
+<button class="shadow-button">Shadow</button>
+
+<!--4k. Margin and padding together-->
+<p></p>
+<button class="count-button">One</button>
+<button class="count-button">Two</button>
+<button class="count-button">Three</button>
